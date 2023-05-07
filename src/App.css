@@ -1,0 +1,92 @@
+nav {
+  background-color: #f36060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  padding: 30px;
+}
+
+.nav--logo {
+  max-height: 40px;
+}
+
+.nav--title {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.destinations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.dest {
+  max-width: 800px;
+}
+
+.dest--cont {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.dest--img {
+  height: 300px;
+  width: 225px;
+  min-width: 225px;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dest-divider {
+  border: 0;
+  border-top: 2px solid #efefef;
+}
+
+.dest--location {
+  display: flex;
+  align-items: center;
+}
+
+.dest--pin {
+  width: 10px;
+  margin: 10px;
+}
+
+.dest--country {
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.dest--maps-link {
+  font-size: 18px;
+  color: gray;
+  margin-left: 20px;
+}
+
+.dest--name {
+  font-size: 44px;
+  margin: 0;
+}
+
+.dest--dates {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 32px;
+}
+
+.dest--description {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 15px 0 0;
+}
